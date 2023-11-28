@@ -1,0 +1,43 @@
+.parent {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#underprnt {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#quote-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 700px;
+
+}
+#quote-box h3, 
+#quote-box h4 {
+  color: black;
+}
+.social #new-quote {
+	padding: 7px 23px;
+  margin-left: 20px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+#right {
+  width: 100%;
+  text-align: right;
+}
+.social FaTwitter {
+  color: black;
+}
